@@ -453,6 +453,27 @@ body {
 
   /* Headings */
   --h1-size: calc(var(--font-text-size) * 2);
+
+  /* Tokyo Night Accent Color (Blue) */
+  --accent-h: 221;
+  --accent-s: 89%;
+  --accent-l: 72%;
+
+  /* Tokyo Night Heading Colors */
+  --h1-color: #7aa2f7;
+  --h2-color: #7dcfff;
+  --h3-color: #bb9af7;
+  --h4-color: #2ac3de;
+  --h5-color: #73dacb;
+  --h6-color: #9ece6a;
+
+  /* Tokyo Night Bold & Italic */
+  --bold-color: #e0af68;
+  --italic-color: #bb9af7;
+
+  /* Tokyo Night Tags */
+  --tag-color: #73dacb;
+  --tag-background: rgba(115, 218, 203, 0.1);
 }
 
 /*
@@ -461,25 +482,33 @@ body {
  * ╰─────────────────────────────────────────────────────────╯
 */
 
-/* Light theme colors */
+/* Light theme colors (Tokyo Night) */
 .theme-light {
-  --background-primary: #f7f7f7;
-  --background-secondary: #fcfcfc;
-  --text-normal: #1a1a1a;
-  --text-muted: #b5b3b1;
+  --background-primary: #1a1b26;
+  --background-secondary: #1f2335;
+  --text-normal: #c0caf5;
+  --text-muted: #565f89;
+  --mono-rgb-0: 26, 27, 38;
+  --mono-rgb-100: 192, 202, 245;
+  --text-on-accent: #1a1b26;
+  --interactive-accent-hover: #6183e0;
 }
 
-/* Dark theme colors */
+/* Dark theme colors (Tokyo Night) */
 .theme-dark {
-  --background-primary: #111111;
-  --background-secondary: #141414;
-  --text-normal: #ccc;
-  --text-muted: #707070;
+  --background-primary: #1a1b26;
+  --background-secondary: #1f2335;
+  --text-normal: #c0caf5;
+  --text-muted: #565f89;
+  --mono-rgb-0: 26, 27, 38;
+  --mono-rgb-100: 192, 202, 245;
+  --text-on-accent: #1a1b26;
+  --interactive-accent-hover: #6183e0;
 }
 
 /* Ensure fullscreen dark mode uses same primary background */
 .theme-dark.is-fullscreen {
-  --background-primary: #111111;
+  --background-primary: #1a1b26;
 }
 
 /*
@@ -703,7 +732,7 @@ img {
 .mod-stacked
   .workspace-tab-container
   > div:not(:nth-of-type(1)):not(:nth-of-type(2)) {
-  --background-primary: #111111;
+  --background-primary: #1a1b26;
 }
 
 /*

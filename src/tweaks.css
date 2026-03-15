@@ -84,7 +84,7 @@ img {
 .mod-stacked
   .workspace-tab-container
   > div:not(:nth-of-type(1)):not(:nth-of-type(2)) {
-  --background-primary: #111111;
+  --background-primary: #1a1b26;
 }
 
 /*
